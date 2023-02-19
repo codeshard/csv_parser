@@ -1,4 +1,4 @@
-from ..csv_parser import CSVParser
+from ..csv_parser.csv_parser import CSVParser
 
 test_file = CSVParser('')
 test_file_no_dups = CSVParser('')
