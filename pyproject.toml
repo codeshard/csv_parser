@@ -1,0 +1,27 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.2.1",
+]
+pip = [
+    "black>=23.1.0",
+    "flake8>=5.0.4",
+]
+
+[project]
+name = "csv_parser"
+version = "0.1.0"
+description = "CSV Divider"
+authors = [
+    {name = "Ozkar L. Garcell", email = "ozkar.garcell@gmail.com"},
+]
+dependencies = [
+    "chardet>=5.1.0",
+]
+requires-python = ">=3.7"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
